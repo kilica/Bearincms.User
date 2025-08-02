@@ -1,0 +1,16 @@
+{
+  "name": "bearin-user",
+  "version": "1.0.0",
+  "description": "Bearin CMS User Module",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "devDependencies": {
+    "eslint": "^8.0.0"
+  },
+  "keywords": ["bearin", "cms", "user", "module"],
+  "author": "",
+  "license": "ISC"
+}
