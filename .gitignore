@@ -1,0 +1,9 @@
+/vendor/
+/var/tmp/
+/var/log/
+.env
+.env.local
+.DS_Store
+Thumbs.db
+composer.lock
+*.log
