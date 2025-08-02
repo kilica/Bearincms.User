@@ -1,0 +1,10 @@
+CREATE TABLE profiles (
+    user_id INT PRIMARY KEY,
+    name VARCHAR(255),
+    nickname VARCHAR(100),
+    avatar_image VARCHAR(500),
+    profile TEXT,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+    FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE
+);
